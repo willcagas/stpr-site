@@ -6,7 +6,7 @@ This includes:
 - Aaron
 - Aneek
 - Chayanth
-- Ethan
+- Ethan (https://ethantran.ca)
 - Ivy
 - Joel
 - Mikael
