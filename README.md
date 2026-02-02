@@ -11,7 +11,7 @@ This includes:
 - Joel
 - Mikael
 - Selena
-- William
+- William (https://wcagas.com)
 - Zac
 
 It'll feature our personal websites, links, group pictures, projects and more!
