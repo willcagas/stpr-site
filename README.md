@@ -5,7 +5,7 @@ This site is a collection of everything related to the Steeltown Power Rangers. 
 This includes:
 - Aaron
 - Aneek
-- Chayanth
+- Chayanth (https://chayanths312.github.io/ChayanthSt/)
 - Ethan (https://ethantran.ca)
 - Ivy
 - Joel
