@@ -8,7 +8,7 @@ This includes:
 - Chayanth (https://chayanths312.github.io/ChayanthSt/)
 - Ethan (https://ethantran.ca)
 - Ivy
-- Joel
+- Joel (https://joelmathewsssss.vercel.app/)
 - Mikael (https://mikaelagomez.vercel.app/)
 - Selena
 - William (https://wcagas.com)
