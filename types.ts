@@ -16,4 +16,21 @@ export interface TravelPhoto {
   description: string;
 }
 
+export interface AdventurePhoto {
+  id: string;
+  url: string;
+  caption: string;
+}
+
+export interface Adventure {
+  id: string;
+  location: string;
+  date: string;
+  coverImage: string;
+  description: string;
+  color: string;
+  photos: AdventurePhoto[];
+  highlights: string[];
+}
+
 
