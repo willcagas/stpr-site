@@ -5,32 +5,32 @@ import { Hammer, Zap, Code, Shield } from 'lucide-react';
 
 const Origin: React.FC = () => {
   return (
-    <section id="origins" className="py-40 bg-[#020617] relative overflow-hidden">
+    <section id="origins" className="relative overflow-hidden">
       
       {/* Background Ancient Text Animation - Low Opacity White */}
       <div className="absolute inset-0 pointer-events-none select-none overflow-hidden opacity-[0.02]">
          <motion.div 
             animate={{ x: ["0%", "-50%"] }}
             transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
-            className="whitespace-nowrap text-[20rem] font-['Rajdhani'] font-bold text-white leading-none"
+            className="whitespace-nowrap text-[20rem] font-['Cinzel'] font-bold text-white leading-none"
          >
             HAMMER HACKS STEEL TOWN POWER RANGERS CODE LEGACY MYSTIC FORCE 
          </motion.div>
          <motion.div 
             animate={{ x: ["-50%", "0%"] }}
             transition={{ duration: 70, repeat: Infinity, ease: "linear" }}
-            className="whitespace-nowrap text-[20rem] font-['Rajdhani'] font-bold text-white leading-none mt-10"
+            className="whitespace-nowrap text-[20rem] font-['Cinzel'] font-bold text-white leading-none mt-10"
          >
             HAMILTON ONTARIO BUILD CREATE DESIGN DEPLOY MYSTIC FORCE
          </motion.div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 relative z-10">
+      <div className="section-shell max-w-5xl relative z-10">
          <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            className="bg-slate-900/50 backdrop-blur-sm rounded-[4rem] p-12 md:p-24 text-center border border-white/5 shadow-[0_0_60px_rgba(59,130,246,0.1)] relative overflow-hidden"
+            className="panel-card rounded-[3rem] p-10 md:p-20 text-center border border-[#d5b16a]/10 shadow-[0_0_60px_rgba(59,130,246,0.1)] relative overflow-hidden"
          >
              {/* Glow Behind */}
              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-blue-900/20 rounded-full blur-[100px]"></div>
@@ -64,7 +64,7 @@ const Origin: React.FC = () => {
 
              <div className="relative mb-16">
                  <span className="absolute -top-10 -left-4 text-8xl text-white/5 font-serif leading-none">"</span>
-                 <p className="text-2xl md:text-5xl font-['Rajdhani'] font-medium leading-tight text-white relative z-10 drop-shadow-lg">
+                 <p className="text-2xl md:text-5xl font-['Cinzel'] font-medium leading-tight text-white relative z-10 drop-shadow-lg">
                     {ORIGIN_STORY}
                  </p>
                  <span className="absolute -bottom-16 -right-4 text-8xl text-white/5 font-serif leading-none transform rotate-180">"</span>
@@ -87,7 +87,7 @@ const Origin: React.FC = () => {
 const StatPill = ({ label, value }: { label: string, value: string }) => (
     <div className="text-center">
         <div className="text-[10px] text-blue-400 uppercase tracking-widest mb-1 font-bold">{label}</div>
-        <div className="text-xl font-['Rajdhani'] font-bold text-white glow-text">{value}</div>
+        <div className="text-xl font-['Cinzel'] font-bold text-white glow-text">{value}</div>
     </div>
 );
 

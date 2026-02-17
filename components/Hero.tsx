@@ -5,7 +5,7 @@ import { Sparkles, Zap, Star, Hexagon } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-[#020617] perspective-1000">
+    <section className="relative w-full min-h-screen flex flex-col items-center justify-center overflow-hidden perspective-1000">
       
       {/* 
         AURORA BACKGROUND - DARK MODE
@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       */}
       <div className="absolute inset-0 z-0">
          <Aurora 
-            colorStops={['#4338ca', '#fbbf24', '#7c3aed']} 
+            colorStops={['#15345f', '#d4a85a', '#2a5f95']} 
             speed={0.2} 
             amplitude={1.0}
             blend={1.5}
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
           ))}
       </div>
 
-      <div className="relative z-20 text-center max-w-5xl mx-auto px-6">
+      <div className="relative z-20 text-center max-w-5xl mx-auto px-6 pt-16">
         <motion.div
             initial={{ opacity: 0, scale: 0.8, filter: "blur(10px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -100,11 +100,11 @@ const Hero: React.FC = () => {
                  </motion.div>
              </div>
 
-             <h1 className="text-7xl md:text-9xl font-bold tracking-widest text-slate-100 mb-6 font-['Rajdhani'] uppercase leading-none drop-shadow-2xl">
-                Mystic <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-300 bg-[length:200%_auto] animate-shine">
-                    Force
+             <h1 className="text-6xl md:text-8xl font-bold tracking-[0.12em] text-slate-100 mb-6 font-['Cinzel'] uppercase leading-none drop-shadow-2xl">
+                Steeltown <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-[#f8e6b9] via-[#d8a651] to-[#f8e6b9] bg-[length:200%_auto] animate-shine">
+                    Power Rangers
                     <motion.span 
-                        className="absolute -top-4 -right-8 text-cyan-400"
+                        className="absolute -top-4 -right-8 text-[#79cfff]"
                         animate={{ opacity: [0, 1, 0], scale: [0.5, 1.5, 0.5] }}
                         transition={{ duration: 2, repeat: Infinity }}
                     >
@@ -117,33 +117,33 @@ const Hero: React.FC = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5, duration: 1 }}
-                className="text-lg md:text-2xl text-blue-300/80 font-medium tracking-[0.3em] uppercase mb-16 max-w-3xl mx-auto flex items-center justify-center gap-4"
+                className="text-base md:text-xl text-[#b6c4de] font-medium tracking-[0.24em] uppercase mb-14 max-w-3xl mx-auto flex items-center justify-center gap-4"
              >
-                <span className="h-px w-12 bg-gradient-to-r from-transparent to-blue-500"></span>
-                The Ancient Code of Hamilton
-                <span className="h-px w-12 bg-gradient-to-l from-transparent to-blue-500"></span>
+                <span className="h-px w-12 bg-gradient-to-r from-transparent to-[#6eaad7]"></span>
+                Forged in Hamilton. Driven by craft.
+                <span className="h-px w-12 bg-gradient-to-l from-transparent to-[#6eaad7]"></span>
              </motion.p>
 
              {/* Magical Buttons */}
              <div className="flex flex-col md:flex-row justify-center gap-8">
-                 <button 
+                 <button
                     onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="group relative px-10 py-5 bg-gradient-to-r from-yellow-600 to-amber-600 text-black rounded-full shadow-[0_0_30px_rgba(234,179,8,0.4)] overflow-hidden hover:shadow-[0_0_50px_rgba(234,179,8,0.6)] hover:-translate-y-1 transition-all duration-500"
+                    className="group relative px-10 py-5 bg-gradient-to-r from-[#b88339] to-[#e0b767] text-[#05070f] rounded-full shadow-[0_0_30px_rgba(212,168,90,0.35)] overflow-hidden hover:shadow-[0_0_50px_rgba(212,168,90,0.52)] hover:-translate-y-1 transition-all duration-500"
                  >
                     {/* Shimmer Effect */}
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/40 to-transparent -translate-x-full group-hover:animate-shimmer"></div>
                     
-                    <span className="relative flex items-center gap-3 font-['Rajdhani'] font-bold text-xl tracking-widest">
+                    <span className="relative flex items-center gap-3 font-['Cinzel'] font-bold text-lg tracking-[0.15em]">
                         <Hexagon size={20} className="fill-black/20" />
-                        Summon Rangers
+                        Meet The Team
                     </span>
                  </button>
                  
                  <button 
                     onClick={() => document.getElementById('adventures')?.scrollIntoView({ behavior: 'smooth' })}
-                    className="px-10 py-5 bg-transparent text-slate-200 border border-slate-700 rounded-full shadow-lg hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] hover:border-blue-500 hover:text-white hover:-translate-y-1 transition-all duration-500 font-['Rajdhani'] font-bold text-xl tracking-widest flex items-center gap-3 group"
+                    className="px-10 py-5 bg-transparent text-slate-200 border border-slate-700 rounded-full shadow-lg hover:shadow-[0_0_20px_rgba(82,196,255,0.4)] hover:border-[#52c4ff] hover:text-white hover:-translate-y-1 transition-all duration-500 font-['Cinzel'] font-bold text-lg tracking-[0.15em] flex items-center gap-3 group"
                  >
-                    <Star size={18} className="group-hover:rotate-180 transition-transform duration-500 text-blue-400" />
+                    <Star size={18} className="group-hover:rotate-180 transition-transform duration-500 text-[#7fd4ff]" />
                     View Chronicles
                  </button>
              </div>

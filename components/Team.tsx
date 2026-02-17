@@ -6,7 +6,7 @@ import { Sparkles, ArrowRight, Activity, Zap, X, ExternalLink } from 'lucide-rea
 
 const Team: React.FC = () => {
   return (
-    <section id="team" className="py-40 bg-[#020617] relative overflow-hidden">
+    <section id="team" className="relative overflow-hidden">
 
       {/* Mystic Background Glows */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
@@ -22,7 +22,7 @@ const Team: React.FC = () => {
         />
       </div>
 
-      <div className="max-w-[1600px] mx-auto px-6 relative z-10">
+      <div className="section-shell max-w-[1600px] relative z-10">
 
         {/* Morphin Grid */}
         <MorphinGrid />
@@ -36,7 +36,7 @@ const Team: React.FC = () => {
             <Sparkles size={14} /> The Squad
           </motion.div>
 
-          <h2 className="text-6xl md:text-8xl font-['Rajdhani'] font-bold text-white tracking-wider uppercase drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] relative inline-block">
+          <h2 className="text-5xl md:text-7xl font-['Cinzel'] font-bold text-white tracking-[0.09em] uppercase drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] relative inline-block">
             Ranger Roster
             <span className="absolute -top-6 -right-6 text-yellow-400 animate-pulse drop-shadow-[0_0_10px_gold]">✦</span>
             <span className="absolute -bottom-4 -left-6 text-purple-400 animate-pulse delay-100 drop-shadow-[0_0_10px_purple]">✦</span>
@@ -184,10 +184,10 @@ const MorphinGrid: React.FC = () => {
             <Zap size={14} /> Power Source
           </motion.div>
 
-          <h2 className="text-5xl md:text-7xl font-['Rajdhani'] font-bold text-white tracking-wider uppercase drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] mb-4">
+          <h2 className="text-4xl md:text-6xl font-['Cinzel'] font-bold text-white tracking-[0.08em] uppercase drop-shadow-[0_0_15px_rgba(255,255,255,0.2)] mb-4">
             The Morphin Grid
           </h2>
-          <p className="text-slate-400 font-['Rajdhani'] tracking-[0.2em] uppercase text-sm">
+          <p className="text-slate-400 font-['Manrope'] tracking-[0.2em] uppercase text-sm">
             Energy Network • Active Rangers Online
           </p>
         </div>

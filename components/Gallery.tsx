@@ -36,7 +36,7 @@ const Gallery: React.FC = () => {
 
   return (
     <>
-      <section id="adventures" className="py-40 bg-[#020617] relative overflow-hidden perspective-1000">
+      <section id="adventures" className="relative overflow-hidden perspective-1000">
         
         {/* Dynamic Background Pattern - Stars */}
         <div className="absolute inset-0 z-0">
@@ -49,7 +49,7 @@ const Gallery: React.FC = () => {
             </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="section-shell max-w-7xl relative z-10">
           <div className="flex flex-col items-center mb-24 text-center">
                <motion.div 
                   initial={{ opacity: 0, scale: 0 }}
@@ -59,10 +59,10 @@ const Gallery: React.FC = () => {
                   <Globe size={32} className="animate-pulse-slow drop-shadow-[0_0_5px_rgba(59,130,246,1)]" />
                </motion.div>
                
-               <h2 className="text-5xl md:text-7xl font-['Rajdhani'] font-bold text-white uppercase tracking-wider mb-4 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]">
+               <h2 className="text-4xl md:text-6xl font-['Cinzel'] font-bold text-white uppercase tracking-[0.08em] mb-4 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]">
                   Adventure Chronicles
                </h2>
-               <p className="text-blue-400 font-['Rajdhani'] tracking-[0.3em] uppercase opacity-80">
+               <p className="text-blue-400 font-['Manrope'] tracking-[0.3em] uppercase opacity-80">
                   Mission Logs • Memory Archives
                </p>
           </div>
