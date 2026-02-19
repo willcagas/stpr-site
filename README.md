@@ -9,7 +9,7 @@ This includes:
 - Ethan (https://ethantran.ca)
 - Ivy
 - Joel (https://joelmathewsssss.vercel.app/)
-- Mikael (https://mikaelagomez.vercel.app/)
+- Mikael (https://mikael.codes/)
 - Selena
 - William (https://wcagas.com)
 - Zac
