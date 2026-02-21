@@ -7,7 +7,7 @@ This includes:
 - Aneek
 - Chayanth (https://chayanths312.github.io/chayanth-suthahar/)
 - Ethan (https://ethantran.ca)
-- Ivy
+- Ivy (https://ivyzhang.ca)
 - Joel (https://joelmathewsssss.vercel.app/)
 - Mikael (https://mikael.codes/)
 - Selena
