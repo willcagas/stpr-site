@@ -3,7 +3,7 @@
 This site is a collection of everything related to the Steeltown Power Rangers. Currently a work in-progress!
 
 This includes:
-- Aaron
+- Aaron (https://www.aarondam.com/)
 - Aneek
 - Chayanth (https://chayanths312.github.io/chayanth-suthahar/)
 - Ethan (https://ethantran.ca)
