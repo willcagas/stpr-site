@@ -12,7 +12,7 @@ This includes:
 - Mikael (https://mikael.codes/)
 - Selena
 - William (https://wcagas.com)
-- William K (https://wkang.ca)
+- William K
 - Zac
 
 It'll feature our personal websites, links, group pictures, projects and more!
